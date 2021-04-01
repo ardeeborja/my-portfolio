@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbo {
+  /* background: linear-gradient(to left, #546c8c, #748cab); */
+  /* background-image: url('./bg.jpg'); */
+
+  background: url(./image/bg.jpg) fixed center no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.image-container {
+  /* background: white;
+  height: 100px;
+  width: 100px;
+  padding: 5px; */
+  /* border-radius: 50%; */
+  transform: translate(0, 275px);
+}
+
+.lower-container {
+  transform: translate(0, 310px);
+}
+
+@media only screen and (max-width: 600px) {
+  .image-container {
+    transform: translate(0, 300px);
+  }
+  .lower-container {
+    transform: translate(0, 330px);
+  }
+}
+
+.project {
+  margin-top: 250px;
+}
+
+.clear {
+  margin-bottom: 120px;
+}
+
+.bottom {
+  margin-bottom: 45px;
+}
+
+.navBarNav {
+  /* transform: translate(0, -70px); */
+  background-color: transparent;
+}
+
+.cardProject:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.sendMessage {
+  margin-top: 90px;
+}
+
+.cardContact {
+  height: 517px;
+}
+
+.iconList {
+  display: flex;
+  /* justify-items: center; */
+  align-items: center;
+  justify-content: space-around;
+}

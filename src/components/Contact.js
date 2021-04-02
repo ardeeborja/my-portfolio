@@ -113,24 +113,33 @@ export default function Contact() {
               <Card.Body className="cardContact iconList">
                 <h4>
                   <a
+                    className="aLink"
                     target="_blank"
+                    rel="noreferrer"
                     href="https://www.linkedin.com/in/ardee-borja-8b76bb88/"
                   >
                     <FaLinkedin />
+                    <span className="iconLabelFont"> Ardee Borja</span>
                   </a>
                 </h4>
                 <h4>
-                  <a href="mailto:ardee.borja@gmail.com">
+                  <a className="aLink" href="mailto:ardee.borja@gmail.com">
                     <IoMail />
+                    <span className="iconLabelFont">
+                      {' '}
+                      ardee.borja@gmail.com
+                    </span>
                   </a>
                 </h4>
                 <h4>
-                  <a href="tel:+639662141567">
+                  <a className="aLink" href="tel:+639662141567">
                     <FaPhoneSquare />
+                    <span className="iconLabelFont"> +63 966 214 1567</span>
                   </a>
                 </h4>
                 <h4>
                   <ImLocation2 />
+                  <span className="iconLabelFont"> San Felipe, Zambales</span>
                 </h4>
               </Card.Body>
             </IconContext.Provider>

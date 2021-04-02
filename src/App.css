@@ -75,7 +75,19 @@
 
 .iconList {
   display: flex;
+  flex-direction: column;
   /* justify-items: center; */
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-around;
+}
+
+.iconLabelFont {
+  font-size: 12pt;
+  color: black;
+  font-weight: 400;
+  text-indent: 2px;
+}
+
+.aLink:link {
+  text-decoration: none !important;
 }

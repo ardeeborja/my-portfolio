@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 
 import Home from './pages/home';
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 
 export default function App() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Jumbotron, Image, Container } from 'react-bootstrap';
-import NavBar from './NavBar';
+import { Jumbotron, Image } from 'react-bootstrap';
+// import NavBar from './NavBar';
 
 export default function Card() {
   return (

@@ -39,10 +39,10 @@ export default function Contact() {
   }
 
   return (
-    <Container id="contactID">
+    <Container>
       <h4 className="sendMessage text-center bottom">Contact Me</h4>
       <Row>
-        <Col className="mt-3" md="6">
+        <Col className="mt-2" md="6">
           <Card>
             <Card.Body className="cardContact">
               <Form onSubmit={(e) => sendEmail(e)}>
@@ -105,7 +105,7 @@ export default function Contact() {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="mt-3" md="6">
+        <Col className="mt-2" md="6">
           <Card>
             <IconContext.Provider
               value={{ color: 'rgba(109, 73, 167, 0.897)' }}

@@ -22,7 +22,7 @@ export default function Card() {
         </div>
         <div className="lower-container text-center">
           <h4>Ardee Borja</h4>
-          <h6>Full Stack Web Developer</h6>
+          <h6 id="projectID">Full Stack Web Developer</h6>
         </div>
       </Jumbotron>
     </>

@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, CardDeck, Button } from 'react-bootstrap';
 
 export default function Project() {
   return (
-    <Container className="project">
+    <Container className="project" id="projectID">
       <h4 className="text-center bottom">Projects</h4>
       <Row className="mt-4">
         <Col>
@@ -59,7 +59,7 @@ export default function Project() {
                   Mongo DB.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer id="contactID">
+              <Card.Footer>
                 <Button
                   variant="secondary"
                   size="sm"

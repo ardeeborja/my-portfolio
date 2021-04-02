@@ -7,6 +7,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaPhoneSquare } from 'react-icons/fa';
 import { ImLocation2 } from 'react-icons/im';
 import { IoMail } from 'react-icons/io5';
+import Swal from 'sweetalert2';
 
 export default function Contact() {
   const [name, setName] = useState('');
@@ -27,6 +28,11 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          Swal.fire({
+            icon: 'success',
+            title: 'Message Sent',
+            text: 'Thank you for sending a message',
+          });
         },
         (error) => {
           console.log(error.text);

@@ -12,11 +12,11 @@ export default function ModalComponent(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          {props.heading}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
+        {/* <h4>Centered Modal</h4> */}
         <p>{props.description}</p>
       </Modal.Body>
       <Modal.Footer>

@@ -85,6 +85,7 @@ export default function Project() {
                     show={modalShowFirst}
                     onHide={() => setModalShowFirst(false)}
                     description={descCapstone1}
+                    heading="Capstone 1"
                   />
                 </Card.Text>
               </Card.Body>
@@ -117,6 +118,7 @@ export default function Project() {
                     show={modalShowSecond}
                     onHide={() => setModalShowSecond(false)}
                     description={descCapstone2}
+                    heading="Capstone 2"
                   />
                 </Card.Text>
               </Card.Body>
@@ -149,6 +151,7 @@ export default function Project() {
                     show={modalShowThird}
                     onHide={() => setModalShowThird(false)}
                     description={descCapstone3}
+                    heading="Capstone 3"
                   />
                 </Card.Text>
               </Card.Body>

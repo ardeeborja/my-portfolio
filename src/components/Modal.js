@@ -20,7 +20,7 @@ export default function ModalComponent(props) {
         <p>{props.description}</p>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={props.onHide}>
+        <Button className="btn-primary-contact" onClick={props.onHide}>
           Close
         </Button>
       </Modal.Footer>

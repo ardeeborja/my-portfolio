@@ -6,7 +6,7 @@ export default function Footer() {
     <>
       <div className="clear"></div>
       <div>
-        <footer className="footer bg-secondary fixed-bottom">
+        <footer className="footer fixed-bottom footer-color">
           <p className="p-3 mb-0 text-center text-white">
             {' '}
             Ardee Borja | Full Stack Web Developer

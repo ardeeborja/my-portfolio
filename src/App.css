@@ -8,6 +8,14 @@
     'Noto Color Emoji';
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .home {
   display: flexbox;
   justify-content: center;
@@ -18,9 +26,18 @@
   /* background: linear-gradient(to left, #546c8c, #748cab); */
   /* background-image: url('./bg.jpg'); */
 
-  background: url(./image/bg.jpg) fixed center no-repeat;
+  background: url(./image/bg.svg) no-repeat center center;
   background-size: cover;
   height: 400px;
+  margin-bottom: 0px !important;
+}
+
+.jumboTextHeader {
+  color: #849ab9;
+}
+
+.img-border {
+  border: 4px solid #577399;
 }
 
 .image-container {
@@ -29,19 +46,24 @@
   width: 100px;
   padding: 5px; */
   /* border-radius: 50%; */
-  transform: translate(0, 275px);
+  transform: translate(0, 216px);
 }
 
 .lower-container {
-  transform: translate(0, 310px);
+  transform: translate(0, 246px);
 }
 
 @media only screen and (max-width: 600px) {
   .image-container {
-    transform: translate(0, 300px);
+    transform: translate(0, 200px);
   }
   .lower-container {
-    transform: translate(0, 330px);
+    transform: translate(0, 230px);
+  }
+  .imageSize {
+    width: 100%;
+    height: 30vw !important;
+    object-fit: contain;
   }
 }
 
@@ -58,8 +80,11 @@
 }
 
 .navBarNav {
-  /* transform: translate(0, -70px); */
-  background-color: transparent;
+  background-color: #577399;
+}
+
+.cardTextColor {
+  color: #577399 !important;
 }
 
 .cardProject:hover {
@@ -122,4 +147,39 @@
   line-height: 1.5;
   color: #212529;
   text-align: left;
+}
+
+.imageSize {
+  width: 100%;
+  height: 12vw;
+  object-fit: contain;
+}
+
+.footer-color {
+  background-color: #577399;
+}
+
+.btn-primary:disabled,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background-color: #fe483b !important;
+  border-color: #fe483b !important;
+  box-shadow: none !important;
+}
+
+.btn-primary,
+.btn-primary:enabled {
+  background-color: #fe5f55 !important;
+  border-color: #fe5f55 !important;
+  box-shadow: none !important;
+}
+
+.btn-primary-contact:disabled,
+.btn-primary-contact:hover,
+.btn-primary-contact:focus,
+.btn-primary-contact:active:focus {
+  background-color: #fe483b !important;
+  border-color: #fe483b !important;
+  box-shadow: none !important;
 }

@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 export default function NavBar() {
   return (
-    <Navbar className="navBarNav" bg="secondary" expand="lg" sticky="top">
+    <Navbar className="navBarNav" expand="lg" sticky="top">
       <Navbar.Brand className="text-white" href="/">
         Ardee's Portfolio
       </Navbar.Brand>

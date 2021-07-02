@@ -46,9 +46,11 @@ export default function Contact() {
 
   return (
     <Container>
-      <h4 className="sendMessage text-center bottom">Contact Me</h4>
+      <h2 className="sendMessage text-center bottom cardTextColor">
+        Contact Me
+      </h2>
       <Row>
-        <Col className="mt-2" md="6">
+        <Col md="6">
           <Card>
             <Card.Body className="cardContact">
               <Form onSubmit={(e) => sendEmail(e)}>
@@ -101,9 +103,8 @@ export default function Contact() {
                   />
                 </Form.Group>
                 <Button
-                  variant="secondary"
                   type="submit"
-                  className="btn-block mb-4"
+                  className="btn-block mb-4 btn-primary-contact"
                 >
                   Send Message
                 </Button>
@@ -111,11 +112,9 @@ export default function Contact() {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="mt-2" md="6">
+        <Col md="6">
           <Card>
-            <IconContext.Provider
-              value={{ color: 'rgba(109, 73, 167, 0.897)' }}
-            >
+            <IconContext.Provider value={{ color: '#577399' }}>
               <Card.Body className="cardContact iconList">
                 <h4>
                   <a

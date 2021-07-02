@@ -64,15 +64,19 @@ export default function Project() {
 
   return (
     <Container className="project">
-      <h4 className="text-center bottom">Projects</h4>
+      <h2 className="text-center bottom cardTextColor">Projects</h2>
       <Row className="mt-4">
         <Col>
           <CardDeck>
             <Card className="cardProject">
-              <Card.Img variant="top" src="../../profile.png" />
+              <Card.Img
+                className="imageSize mt-3"
+                variant="top"
+                src="../../profile.svg"
+              />
               <Card.Body>
                 <Card.Title>Capstone 1</Card.Title>
-                <Card.Text>
+                <Card.Text className="text-justify">
                   My Portfolio is created using technologies like HTML, CSS and
                   Bootstrap.
                   <button
@@ -91,21 +95,25 @@ export default function Project() {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="secondary"
                   size="sm"
                   block
                   target="_blank"
                   href="https://ardee.borja.gitlab.io/capstone1-borja/"
+                  className="btn-primary"
                 >
                   Go to Capstone 1
                 </Button>
               </Card.Footer>
             </Card>
             <Card className="cardProject">
-              <Card.Img variant="top" src="../../coursebooking.png" />
+              <Card.Img
+                className="imageSize mt-3"
+                variant="top"
+                src="../../coursebooking.svg"
+              />
               <Card.Body>
-                <Card.Title className="mt-2">Capstone 2</Card.Title>
-                <Card.Text>
+                <Card.Title>Capstone 2</Card.Title>
+                <Card.Text className="text-justify">
                   Booking Service is a web app that is made using HTML, CSS,
                   JavaScript, Node JS, Express JS and Mongo DB.
                   <button
@@ -129,16 +137,21 @@ export default function Project() {
                   block
                   target="_blank"
                   href="https://ardee.borja.gitlab.io/capstone2-borja/index.html"
+                  className="btn-primary"
                 >
                   Go to Capstone 2
                 </Button>
               </Card.Footer>
             </Card>
             <Card className="cardProject">
-              <Card.Img variant="top" src="../../budget.png" />
+              <Card.Img
+                className="imageSize mt-3"
+                variant="top"
+                src="../../budget.svg"
+              />
               <Card.Body>
-                <Card.Title className="mt-2">Capstone 3</Card.Title>
-                <Card.Text>
+                <Card.Title>Capstone 3</Card.Title>
+                <Card.Text className="text-justify">
                   Budget Tracker is built using Next JS, Node JS, Express JS and
                   Mongo DB.
                   <button
@@ -162,6 +175,7 @@ export default function Project() {
                   block
                   target="_blank"
                   href="https://capstone-3-client-borja.vercel.app/"
+                  className="btn-primary"
                 >
                   Go to Capstone 3
                 </Button>

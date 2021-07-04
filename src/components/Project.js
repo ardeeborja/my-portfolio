@@ -14,7 +14,7 @@ export default function Project() {
 
   useEffect(() => {
     setDescCapstone1(
-      'My Portfolio includes links for my first 2 projects. It includes a Contact Section as well.'
+      'This is the very first website I have created which includes a section for my first 2 projects. These 2 projects are just the same as the capstone 1 and 2 in my main portfolio.'
     );
 
     const descCap2 = (
@@ -98,7 +98,7 @@ export default function Project() {
                   size="sm"
                   block
                   target="_blank"
-                  href="https://ardee.borja.gitlab.io/capstone1-borja/"
+                  href="https://ardeeborja.gitlab.io/capstone1-borja/"
                   className="btn-primary"
                 >
                   Go to Capstone 1
@@ -136,7 +136,7 @@ export default function Project() {
                   size="sm"
                   block
                   target="_blank"
-                  href="https://ardee.borja.gitlab.io/capstone2-borja/index.html"
+                  href="https://ardeeborja.gitlab.io/capstone2-borja/index.html"
                   className="btn-primary"
                 >
                   Go to Capstone 2

@@ -137,14 +137,17 @@ export default function Contact() {
                   </a>
                 </h4>
                 <h4>
-                  <a className="aLink" href="tel:+639662141567">
+                  <a className="aLink" href="tel:0451365344">
                     <FaPhoneSquare />
-                    <span className="iconLabelFont"> +63 966 214 1567</span>
+                    <span className="iconLabelFont"> 0451365344</span>
                   </a>
                 </h4>
                 <h4>
                   <ImLocation2 />
-                  <span className="iconLabelFont"> San Felipe, Zambales</span>
+                  <span className="iconLabelFont">
+                    {' '}
+                    59 Wagner Drive Werribee, VIC 3030
+                  </span>
                 </h4>
               </Card.Body>
             </IconContext.Provider>

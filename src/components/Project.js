@@ -136,7 +136,7 @@ export default function Project() {
                   size="sm"
                   block
                   target="_blank"
-                  href="https://ardeeborja.gitlab.io/capstone2-borja/index.html"
+                  href="https://ardeeborja.github.io/zuitter-booking/index.html"
                   className="btn-primary"
                 >
                   Go to Capstone 2
@@ -174,7 +174,7 @@ export default function Project() {
                   size="sm"
                   block
                   target="_blank"
-                  href="https://capstone-3-client-borja.vercel.app/"
+                  href="https://budget-tracker-sandy-five.vercel.app/"
                   className="btn-primary"
                 >
                   Go to Capstone 3

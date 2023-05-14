@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-import { Container, Row, Col, Card, CardDeck, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 import ModalComponent from './Modal';
 

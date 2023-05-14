@@ -1,9 +1,10 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://ardeeborja.github.io/my-portfolio",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
@@ -12,6 +13,7 @@
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
+    "react-intersection-observer": "^9.4.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "sweetalert2": "^10.15.7",
@@ -19,6 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,7 +47,9 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

@@ -12,6 +12,7 @@ export default function Card() {
             <Image
               className="mx-auto d-block img-fluid img-border"
               src="../ardee.jfif"
+              alt="prof pic"
               height="130px"
               width="130px"
               roundedCircle

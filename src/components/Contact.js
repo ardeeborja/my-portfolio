@@ -8,12 +8,17 @@ import { FaPhoneSquare } from 'react-icons/fa';
 import { ImLocation2 } from 'react-icons/im';
 import { IoMail } from 'react-icons/io5';
 import Swal from 'sweetalert2';
+import { useInView } from 'react-intersection-observer';
 
 export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
 
   function sendEmail(e) {
     e.preventDefault();
@@ -45,12 +50,20 @@ export default function Contact() {
   }
 
   return (
-    <Container>
-      <h2 className="sendMessage text-center bottom cardTextColor">
+    <Container
+      className={`contact-height ${
+        inView ? 'onscroll onscroll-zoom' : 'onscroll'
+      }`}
+      ref={ref}
+    >
+      <h2
+        id="contactID"
+        className="sendMessage text-center bottom cardTextColor"
+      >
         Contact Me
       </h2>
       <Row>
-        <Col md="6">
+        <Col className="contact-card" md="6">
           <Card>
             <Card.Body className="cardContact">
               <Form onSubmit={(e) => sendEmail(e)}>
